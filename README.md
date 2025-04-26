@@ -1,12 +1,27 @@
-# React + Vite
+# Badminton Player Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple web-based application for searching and viewing information about badminton players.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 **Search Bar**: Users can search for badminton players by name.
+- 📋 **Search Results List**: After searching, a list of matching players is shown.
+- 🧾 **Player Details Card**: Clicking on a player from the search results opens a card with more detailed information.
 
-## Expanding the ESLint configuration
+## How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Type a player's name into the search bar.
+2. A list of relevant players will appear below.
+3. Click on a player's name from the list to view their full profile card.
+
+## Technologies Used
+
+- React 
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Nihal1487/BadmintonPlayer.git
+   ```
+
